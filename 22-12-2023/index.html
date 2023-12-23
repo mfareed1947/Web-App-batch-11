@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hi home</h1>
+    <form action="">
+        <br />
+        Gender:
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" checked type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="20" rows="4"></textarea>
+        <hr>
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+        <hr>
+        <p>Do you play any of the following instruments?
+            (You can select more than one option by holding
+            down control on a PC or command key on a Mac
+            while selecting different options.)</p>
+        <select name="instruments" size="4" multiple="multiple">
+            <option value="guitar" selected="selected">
+                Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+        <hr>
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="Upload" />
+        <input type="hidden" name="bookmark" value="lyrics" />
+        <hr>
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>Email:<br />
+                <input type="text" name="email" /></label><br />
+            <label>Mobile:<br />
+                <input type="text" name="mobile" /></label><br />
+            <label>Telephone:<br />
+                <input type="text" name="telephone" /></label>
+        </fieldset>
+        <hr>
+        <label for="username">Username:</label>
+        <input type="text" name="username" placeholder="Enter your user name" required="required" /><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" required="required" />
+        <input type="submit" value="Submit" />
+        <hr>
+        <!-- <label for="username">Departure date:</label>
+        <input type="date" name="depart" />
+        <input type="submit" value="Submit" /> -->
+        <label for="username">Departure date:</label>
+        <input type="date" name="depart" value="2023-12-22" min="2020-01-01" max="2024-01-01" />
+        <input type="submit" value="Submit" />
+        <br>
+        <input type="search" name="search" />
+        <input type="submit" value="Search" />
+        <hr>
+        <div>
+            <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10" />
+            <label for="cowbell">Cowbell</label>
+        </div>
+        <hr>
+        <div id="header">
+            <img src="images/logo.gif" alt="Anish Kapoor" />
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div><!-- end of header -->
+    </form>
+    <iframe width="450" height="350" scrolling="no" src="http://maps.google.co.uk/maps?q=moma+new+york
+&amp;output=embed">
+    </iframe>
+
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YLTOec93Nb4?si=G2ZD1r3ZKXxcFyWk"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>
