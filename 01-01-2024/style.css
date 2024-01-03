@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(234, 191, 34); */
+}
+
+#heading{
+    /* color: rgb(27, 240, 215); */
+    color: #456235;
+}
+
+.heading-two{
+    color: burlywood;
+}
+h2{
+    background-color: aquamarine;
+}
+
+.box-one{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 0.6;
+    /* margin-top: 40px; */
+    padding: 10px;
+}
+
+.inner-box{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+}
