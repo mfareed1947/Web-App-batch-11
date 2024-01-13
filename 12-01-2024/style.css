@@ -1,0 +1,30 @@
+ol {
+    list-style-type: none;
+    /* list-style-image: url("images/star.png"); */
+    /* list-style-position: outside; */
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.text-box {
+    background-color: chocolate;
+    border: none;
+    border-radius: 50px;
+}
+
+.text-box:focus {
+
+    border: 1px solid #b1e1e4;
+}
+
+.box {
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    /* background-image: linear-gradient(to right bottom ,red, yellow); */
+    background-image: radial-gradient(circle, red, yellow, green);
+}
