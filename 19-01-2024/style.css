@@ -1,0 +1,145 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./money-heist-segtwbhffwy01w82.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+    border-bottom: 1px solid #d6cfcf;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px;
+    height: 40px;
+
+}
+
+.nav-content {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 80px;
+    list-style: none;
+    font-weight: 700;
+}
+
+.fa-solid {
+    margin-left: 20px;
+}
+
+.hero-section {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    padding: 0 30px;
+
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.rating-box {
+    display: flex;
+}
+
+.rating {
+    width: 50px;
+    height: 30px;
+    margin: 10px 0;
+    background-color: rgb(218, 218, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: none;
+    border-radius: 6px;
+}
+
+.rating>span {
+    padding: 10px 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(218, 218, 33);
+    border-radius: 50%;
+}
+
+.rate {
+    margin-left: 20px;
+}
+
+.main-heading {
+    font-size: 62px;
+    margin: 10px 0;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.para {
+    line-height: 24px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    color: #ffff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+#watch-btn {
+    background-color: rgb(206, 63, 63);
+    /* transform: all ease-in-out 0.6 linear; */
+
+}
+
+#watch-btn:hover {
+    box-shadow: 2px 2px 4px 4px rgb(228, 61, 61);
+}
+
+#list-btn {
+    background-color: grey;
+}
