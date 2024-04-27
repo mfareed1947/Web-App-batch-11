@@ -42,12 +42,12 @@
 
 // var cityToCheck = "karachi";
 
-// var firstChar = cityToCheck.slice(0, 1);
-// var otherChars = cityToCheck.slice(1);
-// firstChar = firstChar.toUpperCase();
-// otherChars = otherChars.toLowerCase();
-// var cappedCity = firstChar + otherChars;
-// console.log(cappedCity)
+var firstChar = cityToCheck.slice(0, 1);
+var otherChars = cityToCheck.slice(1);
+firstChar = firstChar.toUpperCase();
+otherChars = otherChars.toLowerCase();
+var cappedCity = firstChar + otherChars;
+console.log(cappedCity)
 
 //asdfghjkl
 // var str = prompt("Enter some text");
