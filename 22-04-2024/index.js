@@ -4,11 +4,9 @@
 
 // console.log(Math.round(5.95), Math.round(5.4), Math.round(5.05));
 
-
 // console.log(Math.round(-5.05), Math.round(-5.5), Math.round(-5.95));
 
 // console.log(Math.round(-20.51));
-
 
 // console.log(Math.random() * 100)
 
@@ -64,20 +62,19 @@
 
 //**************************** Converting strings to integers and decimals
 
-// var profit = "167.3" - "125.67";
+var profit = "167.3" - "125.67";
 
-// var profit = "200" - "duck";
-// var result = "200" + 150;
-// var result = 150 + + "200";
-// var result = parseInt("780");
-// var result = parseFloat(780.879);
-// console.log(result)
+var profit = "200" - "duck";
+var result = "200" + 150;
+var result = 150 + +"200";
+var result = parseInt("780");
+var result = parseFloat(780.879);
+console.log(result);
 
 // function circumference(r) {
 //     return parseFloat(r) * 2.0 * Math.PI;
 // }
 // console.log(circumference(4.567))
-
 
 // var integerString = "24"
 // var num = Number(integerString);
@@ -91,4 +88,3 @@
 // var total = 42324.55242424234
 // var prettyTotal = total.toFixed(5);
 // console.log(Number(prettyTotal))
-
