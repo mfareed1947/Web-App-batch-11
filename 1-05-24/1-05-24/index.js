@@ -7,24 +7,18 @@
 // var hekko = (params = "asad") => console.log(params, "aa")
 // console.log(hekko("hamza"))
 
-
-
 // const array1 = ['one', 'two', 'three'];
 // console.log('array1:', array1);
 
 // const reversed = array1.reverse();
 // console.log('reversed:', reversed);
 
-
-
-
-
 /// SEARCH METHODS
 
-// const words = [400, 560, 324, 678, 213, 644, 961, 340];
+const words = [400, 560, 324, 678, 213, 644, 961, 340];
 // const words = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
-// const result = words.filter((num, i) => num % 2 !== 0);
+const result = words.filter((num, i) => num % 2 !== 0);
 
 // console.log(result)
 
