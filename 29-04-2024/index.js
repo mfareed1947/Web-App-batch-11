@@ -1,21 +1,18 @@
-
 // //global variable
 // var user = "fareed";
 
-
-// function print() {
-//     //local variable
-//     let inputData = true;
-//     function output() {
-//         console.log(inputData)
-//     }
-//     output()
-// }
-// print()
+function print() {
+  //local variable
+  let inputData = true;
+  function output() {
+    console.log(inputData);
+  }
+  output();
+}
+print();
 // function hello(params) {
 
 // }
-
 
 // switch ("Sat") {
 //     case "Sat":
@@ -31,7 +28,6 @@
 //         console.log("Shoot me now!");
 
 // }
-
 
 // let trafficLight = "yellow";
 // let message = ""
@@ -81,12 +77,10 @@
 // q = "qqq";
 // console.log(q)
 
-
 // const array1 = ['a', 'b', 'c'];
 // const array2 = ['d', 'e', 'f'];
 // const array3 = array1.concat(array2);
 // console.log(array3)
-
 
 // const months = ['March', 'Jan', 'Feb', 'Dec'];
 // months.sort();
@@ -107,10 +101,8 @@
 // }
 // console.log(inside())
 
-
 // let inside = () => "eder".split('')
 // console.log(inside())
-
 
 // const array1 = [2, 4, 6];
 
@@ -126,7 +118,6 @@
 // // newArr.splice(-3, 1, "wasi")
 // newArr.splice(1, 2)
 // console.log(newArr)
-
 
 // var newArr = ["dog", "cat", "fly", "bug", "bird", "fish"]
 
