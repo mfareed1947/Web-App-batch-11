@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="head" onmousedown="changeStyle('red')">click me</h1>
+
+    <!-- <h3 onmousedown="changeStyle('green')">second elemt</h3> -->
+    <!-- <h3 onmouseover="changeStyle('green')">second elemt</h3> -->
+    <h3 onmouseenter="changeStyle('green')">second elemt</h3>
+    <!-- <h3 onmouseleave="changeStyle('green')">second elemt</h3> -->
+    <!-- <h3 onmousemove="changeStyle('green')">second elemt</h3> -->
+    <!-- <h3 onmouseup="changeStyle('0')">second elemt</h3> -->
+    <!-- <input type="text" size="30" onFocus="this.style.backgroundColor='yellow';"> -->
+
+
+
+    <script>
+        function changeStyle(color) {
+            console.log(color)
+            document.body.style.backgroundColor = color;
+        };
+    </script>
+</body>
+
+</html>
