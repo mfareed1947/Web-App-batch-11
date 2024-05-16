@@ -1,7 +1,7 @@
-// function expandLoris() {
-//     const expandedParagraph = "Hi, I am Muhammad Fareed";
-//     document.getElementById("slowLoris").innerHTML = expandedParagraph;
-// }
+function expandLoris() {
+    const expandedParagraph = "Hi, I am Muhammad Fareed";
+    document.getElementById("slowLoris").innerHTML = expandedParagraph;
+}
 
 // const testing = document.getElementById("slowLoris").innerHTML;
 // const testing = document.getElementById("slowLoris").innerText;
