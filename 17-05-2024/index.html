@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input {
+        outline: none;
+    }
+</style>
+
+<body>
+    <div style="display: flex;justify-content: center; flex-direction: column;">
+        <h1>Sign Up</h1>
+        <form action="">
+            <div style="margin-bottom: 10px;">
+                <label for="">
+                    Name
+                </label>
+                <input type="text" name="userName" id="userName">
+                <p style="display: none; color: rgb(206, 39, 39);" id="name-error">Name should be greater than 4</p>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="">
+                    Email
+                </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="">
+                    Phone Number
+                </label>
+                <input type="text" name="phoneNumber" id="phoneNumber">
+                <p style="display: none; color: rgb(206, 39, 39);" id="phone-error">Phone number is not valid</p>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="">Course</label>
+                <select name="courses" id="courses">
+                    <option value="web & App">web & App</option>
+                    <option value="Graphic">Graphic</option>
+                    <option value="python">python</option>
+                    <option value="Flutter">Flutter</option>
+                </select>
+            </div>
+            <div>
+                <input type="radio" required value="Male" name="gender" id="">Male
+                <input type="radio" required value="Female" name="gender" id="">Female
+                <input type="radio" required value="Others" name="gender" id="">Others
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="">Password</label>
+                <input type="password" name="password" id="password">
+                <p style="display: none; color: rgb(206, 39, 39);" id="password-error">password is not valid</p>
+            </div>
+
+            <!-- <div class="">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div> -->
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
