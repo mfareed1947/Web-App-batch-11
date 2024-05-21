@@ -1,7 +1,7 @@
-function expandLoris() {
-    const expandedParagraph = "Hi, I am Muhammad Fareed";
-    document.getElementById("slowLoris").innerHTML = expandedParagraph;
-}
+// function expandLoris() {
+//     const expandedParagraph = "Hi, I am Muhammad Fareed";
+//     document.getElementById("slowLoris").innerHTML = expandedParagraph;
+// }
 
 // const testing = document.getElementById("slowLoris").innerHTML;
 // const testing = document.getElementById("slowLoris").innerText;
@@ -16,13 +16,13 @@ function expandLoris() {
 
 // }
 
-const btn = document.getElementById("btn")
+// const btn = document.getElementById("btn")
 
 // function makeInvisible() {
 //     document.getElementById("ugly").className = "gayb";
 // }
-btn.addEventListener("click", () => {
-    const img = document.getElementById("hello").classList;
-    img.toggle("dark-mode");
-})
+// btn.addEventListener("click", () => {
+//     const img = document.getElementById("hello").classList;
+//     img.toggle("dark-mode");
+// })
 
