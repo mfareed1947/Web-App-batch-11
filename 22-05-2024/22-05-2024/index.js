@@ -29,29 +29,29 @@ mobileObj["id"] = "69789";
 
 
 
-// var plan1 = {
-//     name: "Basic",
-//     price: 3.99,
-//     space: 100,
-//     transfer: 1000,
-//     pages: 10,
-//     discountMonths: [5, 7],
-//     calcAnnual: function (percentIfDisc) {
-//         var bestPrice = plan1.price;
-//         var currDate = new Date();
-//         var thisMo = currDate.getMonth() + 1;
-//         for (var i = 0; i < plan1.discountMonths.length; i++) {
-//             if (plan1.discountMonths[i] === thisMo) {
-//                 bestPrice = plan1.price * percentIfDisc;
-//                 break;
-//             }
-//         }
-//         return bestPrice;
-//     }
-// };
-// var annualPrice = plan1.calcAnnual(0.85);
+var plan1 = {
+    name: "Basic",
+    price: 3.99,
+    space: 100,
+    transfer: 1000,
+    pages: 10,
+    discountMonths: [5, 7],
+    calcAnnual: function (percentIfDisc) {
+        var bestPrice = plan1.price;
+        var currDate = new Date();
+        var thisMo = currDate.getMonth() + 1;
+        for (var i = 0; i < plan1.discountMonths.length; i++) {
+            if (plan1.discountMonths[i] === thisMo) {
+                bestPrice = plan1.price * percentIfDisc;
+                break;
+            }
+        }
+        return bestPrice;
+    }
+};
+var annualPrice = plan1.calcAnnual(0.85);
 
-// console.log(annualPrice)
+console.log(annualPrice)
 
 // function Plan(name, price, space, transfer, pages) {
 //     this.name = name;
